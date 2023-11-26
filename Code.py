@@ -2,7 +2,7 @@ import openai
 import time
 proxies = {'http':"http://127.0.0.1:7890", 'http':"http://127.0.0.1:7890"}
 openai.proxy = proxies
-openai.api_key = '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'
+openai.api_key = 'YOUR API-KEY'
 import pandas as pd
 def get_data():
     df = pd.read_excel('C:/Users/HP/Desktop/data.xlsx')
